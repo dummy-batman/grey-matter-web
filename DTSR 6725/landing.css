@@ -1,0 +1,52 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.brand-serif {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Hero Design */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-gold {
+    background-color: #D4AF37;
+    color: #000;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-gold:hover {
+    background-color: #bfa030;
+    transform: translateY(-2px);
+}
+
+.text-gold {
+    color: #D4AF37;
+}
+
+.tracking-tighter {
+    letter-spacing: -1px;
+}
+
+.x-small {
+    font-size: 0.75rem;
+}
+
+/* Navbar effect */
+.navbar {
+    background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+    .display-2 { font-size: 2.5rem; }
+    .hero-section { height: 90vh; }
+}
